@@ -1,0 +1,132 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #000000 0%, #7810ee 100%);
+  height: 100%;
+}
+h1 {
+  color: rgb(233, 233, 233);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.container {
+  background-color: rgb(233, 233, 233);
+  padding: 1rem;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  
+}
+
+form, .mensajes {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.mensajes {
+  text-align: center;
+}
+.resultado {
+  border: 2px solid #00b0d7;
+  padding: 3rem 0;
+}
+form label {
+  text-align: center;
+  font-size: 2.3rem;
+}
+input[type="submit"]:disabled{
+  opacity: .2;
+  color: black;
+}
+
+.error {
+  background-color: white;
+  border:2px solid red;
+  padding: .5rem;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.resultado p {
+  margin: 0;
+}
+
+.texto {
+  width:full-width;
+  color:rgb(0, 0, 0);
+}
+
+.foto {
+  max-width: 14%;
+  float: left;
+  line-height: 100px;
+
+}
+
+.profile_pic {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  border: 3px solid rgb(0, 0, 0);
+  flex: 9;
+  float: left;
+}
+
+
+.main {
+  width: 30rem;
+  /* min-height: 15rem ; */
+  padding: 1rem 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid var(--stroke-color);
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 20px 0px #07617c4b;
+  background-color: white;
+}
+
+.header {
+  text-align:left;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.name {
+  font-size: 20pt;
+  text-align: center;
+  flex: 3;
+  margin-bottom: 1rem;
+  
+}
+
+small {
+  color: rgba(128, 128, 128, 0.945);
+  font-size: 0.7rem;
+}
+
+.description {
+  font-size: 9pt;
+  font-weight: 600;
+  line-height: 2;
+  margin-bottom: 0.5rem;
+}
+.nombre {
+  font-size: 16pt;
+  text-align: center;
+}
+
+.fecha {
+  font-size: 8pt;
+  font-weight: bold;
+}
